@@ -1,0 +1,811 @@
+*{
+    font-family: sans-serif;
+}
+ .main .navbar img{
+    width: 20% !important;
+    height: 100%;
+}
+
+.main .navbar .navbar-nav .nav-link {
+    font-weight: bold;
+    font-size: 20px;
+    color: black !important;
+}
+.main .navbar .navbar-nav .nav-link:hover{
+    border-bottom: 2px solid black;
+    transition: 0.5s;
+}
+
+.navbar img{
+    width: 100%;
+    height: 100%;
+}
+.most-main .logo img{
+    width: 100%;
+    height: 50px;
+}
+
+
+
+.banner-text{
+    /* background-color: red; */
+    background-image: url("../assests/girl\ with\ book.avif");
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+    
+
+}
+.main-banner  .image h2{
+    padding-left: 20px;
+    padding-top: 200px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    width: 42%;
+
+}
+.main-banner .image  p{ 
+    padding-left: 20px;
+    width: 40% !important;
+    text-align: start !important;
+    font-size: 20px !important;
+
+}
+.main-banner  .image  button{
+    margin-left: 20px !important;
+    border-radius: 5px;
+    width: 10%;
+    border: none !important;
+    height: 33px;
+}
+.main-banner .banner-text  button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+
+
+/* card section css strt */
+.cards-sec .education{
+    text-align: center;
+}
+.cards-sec .btn{
+    align-items: center;
+    text-align: center;
+    background-color: red;
+}
+.cards-sec h2{
+    text-align: center;
+    color: #39a29e;
+    font-weight: bold;
+    
+}
+.cards-sec .btn{
+   
+    background-color: black;
+    border: none;
+    color: #39a29e;
+}
+.cards-sec{  
+    margin-top: 100px;
+}
+.cards-sec .new{
+    margin-top: 40px;
+}
+.cards-sec  .new .card{
+    box-shadow: 1px 2px 3px grey;
+}
+
+
+    
+
+   
+/* card section css over */
+/* review section css strt */
+.main-review .img-review img{
+    /* font-size: 10px !important; */
+    width: 20%;
+    padding: 5px;
+    border-radius: 20px;
+    height: 50px;
+}
+.main-review .img-review i{
+    font-size: 13px;
+    color: red;
+}
+.most-main .navbar .nav-item{
+    color: black !important;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.most-main .navbar .nav-item:hover{
+    color: red !important;
+    transition: 0.5s;
+}
+.main-review .img-review{
+    border: 2px solid black;
+    margin-right: 20px;
+}
+.main-review .start .img-review{
+    box-shadow: 1px 2px 3px grey;
+    border: none;
+}
+.main-review h2{
+    text-align: center;
+    color: #39a29e;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.main-review .start{
+    margin-top: 50px;
+}
+.main-review .start .img-review h6,p {
+    /* text-align: center !important; */
+}
+.img-review p{
+ font-size: small;
+}
+/* review section css over */
+/* contact css strt */
+.main-contact{
+    text-align: center;
+   
+}
+.main-contact .contact-detail input{
+
+    border: none;
+    border-bottom: 2px solid black;
+    width: 25%;
+    height: 30px;
+   
+    
+}
+.main-contact .contact-detail input::placeholder{
+    
+    color: #39a29e;
+    font-size:15px !important;
+}
+.main-contact img{
+    border-radius: 50px;
+    width: 50px;
+}
+.main-contact {    
+    background: -webkit-linear-gradient(white )100%;
+    padding-top: 80px;
+}
+.main-contact .contact-detail{
+    margin-top: 20px;
+}
+.main-contact .contact-detail button{
+    border-radius: 5px;
+    height: 30px;
+    width: 10%;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    background-color: #39a29e;
+}
+.main-contact h2{
+    color:#39a29e;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+   
+}
+/* contact css over */
+/* video sec css */
+.main-video .sec-strt{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
+.main-video  iframe{
+    margin-top: 50px !important; 
+    position: relative;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 100%;
+    height: 350px;
+     margin: auto;
+     text-align: center !important;
+   
+}
+.main-video h2{
+
+    text-align: center;
+    color: #39a29e;
+    font-weight: bold;
+}
+.main-video{
+    
+    margin-top: 100px;
+}
+/* video sec css over */
+
+.footer-main .footer-parts{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-main .footer-parts .footer-1 img{
+    width: 100%;
+    height:100px;
+}
+.footer-main .footer-parts{
+    padding-top: 50px;
+    
+    margin-top: 100px;
+}
+.footer-main .footer-parts .link a{
+    color: white;
+    font-size: 20px;
+}
+
+.footer-main{
+    background:#39a29e;
+    height: 50vh;
+}
+.footer-main .line hr{
+    border-top:1px solid black;
+    color: red !;
+
+}
+.footer-main .line i{
+    color: white;
+    float: right;
+    margin-right: 20px;
+    font-size:25px;
+}
+.footer-main .line p{
+    color: white;
+}
+/* media screen strt from 300 to  391 */
+@media screen and (min-width:300px) and (max-width:391px){
+    .main .navbar img {
+        width: 35% !important;
+        height: 100%;
+    }
+    .banner-text{
+        /* background-color: red; */
+        background-image: url("../assests/girl\ with\ book.avif");
+        width: 100%;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+.most-main .logo img {
+    width: 87%;
+    height: 37px;
+}
+
+.main-banner .image h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    width: 57%;
+}
+.main-banner .image p {
+    width: 45% !important;
+    text-align: start !important;
+    font-size: 13px !important;
+}
+
+.main-banner .banner-text button {
+    border-radius: 5px;
+    width: 22%;
+    font-size: 10px;
+    border: none !important;
+    height: 27px;
+}
+.cards-sec h2 {
+    text-align: center;
+    font-size: 20px;
+    color: #39a29e;
+    font-weight: bold;
+}
+.cards-sec .new {
+    margin-top: 40px;
+    text-align: -webkit-center;
+}
+.cards-sec .new .card {
+    margin-top: 20px;
+    box-shadow: 1px 2px 3px grey;
+}
+.main-review h2 {
+    text-align: center;
+    color: #39a29e;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.main-review .start .img-review {
+    box-shadow: 1px 2px 3px grey;
+    border: none;
+    margin: auto;
+}
+.main-video h2 {
+    text-align: center;
+    color: #39a29e;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-video iframe {
+    margin-top: 50px !important;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 100%;
+    height: 349px;
+    /* margin: auto; */
+    text-align: center !important;
+}
+.main-contact h2 {
+    color: #39a29e;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+.main-contact img {
+    font-size: 54px;
+    border-radius: 50px;
+    width: 44px;
+}
+.main-contact .contact-detail input {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 50%;
+    height: 30px;
+}
+.main-contact .contact-detail button {
+    border-radius: 5px;
+    height: 30px;
+    width: 25%;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    background-color: #39a29e;
+}
+.footer-main .footer-parts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-main {
+    background: #39a29e;
+    height: 725px;
+}
+.footer-main .footer-parts .footer-1 img {
+    /* display: flex; */
+    width: 96%;
+    padding-left: 24px;
+    text-align: center;
+    height: 95px;
+}
+.footer-main .line p {
+    text-align: center;
+    color: white;
+}
+
+}
+/* media screen over from 300 to  391 */
+
+
+/* view screen for Xr */
+@media screen and (min-width:390px) and (max-width:500px){
+    .main .navbar img {
+        width: 35% !important;
+        height: 100%;
+    }
+    .banner-text{
+        /* background-color: red; */
+        background-image: url("../assests/girl\ with\ book.avif");
+        width: 100%;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+.most-main .logo img {
+    width: 87%;
+    height: 37px;
+}
+
+.main-banner .image h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    width: 57%;
+}
+.main-banner .image p {
+    width: 45% !important;
+    text-align: start !important;
+    font-size: 13px !important;
+}
+
+.main-banner .banner-text button {
+    border-radius: 5px;
+    width: 22%;
+    font-size: 10px;
+    border: none !important;
+    height: 27px;
+}
+.cards-sec h2 {
+    text-align: center;
+    font-size: 20px;
+    color: #39a29e;
+    font-weight: bold;
+}
+.cards-sec .new {
+    margin-top: 40px;
+    text-align: -webkit-center;
+}
+.cards-sec .new .card {
+    margin-top: 20px;
+    box-shadow: 1px 2px 3px grey;
+}
+.main-review h2 {
+    text-align: center;
+    color: #39a29e;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.main-review .start .img-review {
+    box-shadow: 1px 2px 3px grey;
+    border: none;
+    margin: auto;
+}
+.main-video h2 {
+    text-align: center;
+    color: #39a29e;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-video iframe {
+    margin-top: 50px !important;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 100%;
+    height: 349px;
+    /* margin: auto; */
+    text-align: center !important;
+}
+.main-contact h2 {
+    color: #39a29e;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+.main-contact img {
+    font-size: 54px;
+    border-radius: 50px;
+    width: 44px;
+}
+.main-contact .contact-detail input {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 50%;
+    height: 30px;
+}
+.main-contact .contact-detail button {
+    border-radius: 5px;
+    height: 30px;
+    width: 25%;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    background-color: #39a29e;
+}
+.footer-main .footer-parts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-main {
+    background: #39a29e;
+    height: 725px;
+}
+.footer-main .footer-parts .footer-1 img {
+    /* display: flex; */
+    width: 96%;
+    padding-left: 24px;
+    text-align: center;
+    height: 95px;
+}
+.footer-main .line p {
+    text-align: center;
+    color: white;
+}
+
+}
+
+/* view screen for  end Xr */
+
+/* view screen for 12pro max */
+@media screen and (min-width:501px) and (max-width:775px){
+    .main .navbar img {
+        width: 35% !important;
+        height: 100%;
+    }
+    .banner-text{
+        /* background-color: red; */
+        background-image: url("../assests/girl\ with\ book.avif");
+        width: 100%;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+.most-main .logo img {
+    width: 87%;
+    height: 37px;
+}
+
+.main-banner .image h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    width: 57%;
+}
+.main-banner .image p {
+    width: 45% !important;
+    text-align: start !important;
+    font-size: 13px !important;
+}
+
+.main-banner .image button {
+    border-radius: 5px;
+    width: 22%;
+    font-size: 10px;
+    border: none !important;
+    height: 27px;
+}
+.cards-sec h2 {
+    text-align: center;
+    font-size: 20px;
+    color: #39a29e;
+    font-weight: bold;
+}
+.cards-sec .new {
+    margin-top: 40px;
+    text-align: -webkit-center;
+}
+.cards-sec .new .card {
+    margin-top: 20px;
+    box-shadow: 1px 2px 3px grey;
+}
+.main-review h2 {
+    text-align: center;
+    color: #39a29e;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.main-review .start .img-review {
+    box-shadow: 1px 2px 3px grey;
+    border: none;
+    margin: auto;
+}
+.main-video h2 {
+    text-align: center;
+    color: #39a29e;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-video iframe {
+    margin-top: 50px !important;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 100%;
+    height: 349px;
+    /* margin: auto; */
+    text-align: center !important;
+}
+.main-contact h2 {
+    color: #39a29e;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+.main-contact img {
+    font-size: 54px;
+    border-radius: 50px;
+    width: 44px;
+}
+.main-contact .contact-detail input {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 50%;
+    height: 30px;
+}
+.main-contact .contact-detail button {
+    border-radius: 5px;
+    height: 30px;
+    width: 25%;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    background-color: #39a29e;
+}
+.footer-main .footer-parts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-main {
+    background: #39a29e;
+    height: 725px;
+}
+.footer-main .footer-parts .footer-1 img {
+    /* display: flex; */
+    width: 96%;
+    padding-left: 24px;
+    text-align: center;
+    height: 95px;
+}
+.footer-main .line p {
+    text-align: center;
+    color: white;
+}
+}
+
+
+/* view screen end for 12pro max */
+
+
+/* view for ipad */
+@media screen and (min-width:776px) and (max-width:1024px){
+    .main .navbar img {
+        width: 35% !important;
+        height: 100%;
+    }
+    .banner-text{
+        /* background-color: red; */
+        background-image: url("../assests/girl\ with\ book.avif");
+        width: 100%;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+.most-main .logo img {
+    width: 87%;
+    height: 37px;
+}
+
+.main-banner .image h2 {
+    color: white;
+    font-weight: bold;
+    font-size:50px !important;
+    width: 57%;
+}
+.main-banner .image p {
+    width: 45% !important;
+    text-align: start !important;
+    font-size: 15px !important;
+}
+
+.main-banner .image button {
+    border-radius: 5px;
+    width: 15%;
+    font-size: 10px;
+    border: none !important;
+    height: 27px;
+}
+.cards-sec h2 {
+    text-align: center;
+    font-size: 20px;
+    color: #39a29e;
+    font-weight: bold;
+}
+.cards-sec .new {
+    margin-top: 40px;
+    text-align: -webkit-center;
+}
+.cards-sec .new .card {
+    margin-top: 20px;
+    box-shadow: 1px 2px 3px grey;
+}
+.main-review h2 {
+    text-align: center;
+    color: #39a29e;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.main-review .start .img-review {
+    box-shadow: 1px 2px 3px grey;
+    border: none;
+    margin: auto;
+}
+.main-video h2 {
+    text-align: center;
+    color: #39a29e;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-video iframe {
+    margin-top: 50px !important;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 100%;
+    height: 349px;
+    /* margin: auto; */
+    text-align: center !important;
+}
+.main-contact h2 {
+    color: #39a29e;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+.main-contact img {
+    font-size: 54px;
+    border-radius: 50px;
+    width: 44px;
+}
+.main-contact .contact-detail input {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 50%;
+    height: 30px;
+}
+.main-contact .contact-detail button {
+    border-radius: 5px;
+    height: 30px;
+    width: 25%;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    background-color: #39a29e;
+}
+.footer-main .footer-parts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-main {
+    background: #39a29e;
+    height: 725px;
+}
+.footer-main .footer-parts .footer-1 img {
+    /* display: flex; */
+    width: 96%;
+    padding-left: 24px;
+    text-align: center;
+    height: 95px;
+}
+.footer-main .line p {
+    text-align: center;
+    color: white;
+}
+
+}
+
+
+/* view for end ipad */
+
+
+
+
+
+
+
+
+
+
+
+
+
